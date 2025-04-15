@@ -1,6 +1,6 @@
 import './App.css'
 import { Modal } from './components'
-import { useModalContext } from './components/Modal/Context/Modal.context'
+import { useModalContext } from './components/Modal/Context/useModalContext'
 function App() {
   const {setState} = useModalContext()
 
